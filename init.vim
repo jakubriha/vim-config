@@ -23,6 +23,7 @@ call dein#begin(expand('~/.config/nvim'))
 
 call dein#end()
 
+filetype plugin on
 filetype plugin indent on
 
 " Update packages by pressing \u.
