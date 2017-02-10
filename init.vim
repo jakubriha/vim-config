@@ -89,10 +89,10 @@ endif
 " Show always status line.
 set laststatus=2
 
-" One tab is 4 spaces.
+" One tab is 2 spaces.
 set expandtab
-set shiftwidth=4
-set softtabstop=4
+set shiftwidth=2
+set softtabstop=2
 
 " Highlight current line.
 :set cursorline
