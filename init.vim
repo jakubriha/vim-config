@@ -19,6 +19,7 @@ call dein#begin(expand('~/.config/nvim'))
   call dein#add('neomake/neomake')
   call dein#add('neovimhaskell/haskell-vim')
   call dein#add('tpope/vim-surround')
+  call dein#add('scrooloose/nerdcommenter')
   call dein#add('easymotion/vim-easymotion')
 
 call dein#end()
