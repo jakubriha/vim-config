@@ -119,6 +119,10 @@ noremap L g_
 noremap J 5j
 noremap K 5k
 
+" Comment/uncomment lines by pressing cc/uu
+nmap cc <Plug>NERDCommenterComment
+nmap uu <Plug>NERDCommenterUncomment
+
 " Themes, Commands, etc  ----------------------------------------------------
 
 " Current theme settings
