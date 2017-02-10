@@ -19,6 +19,7 @@ call dein#begin(expand('~/.config/nvim'))
   call dein#add('neomake/neomake')
   call dein#add('neovimhaskell/haskell-vim')
   call dein#add('tpope/vim-surround')
+  call dein#add('easymotion/vim-easymotion')
 
 call dein#end()
 
@@ -75,6 +76,17 @@ set smartcase
 
 " Use relative numbering.
 set relativenumber
+
+" ------- Easymotion
+
+" Disable default mappings. 
+let g:EasyMotion_do_mapping = 0
+
+" Press f to search with a two-letter pattern.
+nmap f <Plug>(easymotion-overwin-f2)
+
+" Turn on case insensitive feature
+let g:EasyMotion_smartcase = 1
 
 " ------- Formatting
 
